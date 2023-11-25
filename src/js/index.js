@@ -11,6 +11,8 @@ botaoBusca.addEventListener("click", async () => {
 
     if (dados) preencherDadosNaTela(dados, cidade);
 
+    console.log(dados);
+
 });
 
 async function buscarDadosDaCidade(cidade) {
